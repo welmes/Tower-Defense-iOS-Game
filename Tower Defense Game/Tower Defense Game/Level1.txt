@@ -1,0 +1,62 @@
+
+pAthMap // 18x14 grid Bf characters {P, O, B, C, S, E}, limit 1 S and E each
+
+S O O O O O O O O O O O O O O O O O
+B B B O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O B O B B
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O B O O O
+O O O O O O O O O O O O O O B O O E
+
+ TileSET      Sand
+startAtTributes
+enerGy 10.15
+hp  20
+rounds   2
+round    waves               2
+     wave
+enemyTYPE SkelETON
+     ENEMYhp 500
+
+        enemyARMOR 0
+    ENEMYSPEED   1
+     enemybounty 10
+ enemYScale 1
+enemyscore 20
+numberenemies 4
+spawninterval .8
+waveperioD 10
+wave
+enemytype skeleton
+enemyhp 800
+enemyarmor 1
+enemyspeed 1.1
+enemybounty 12
+enemyscale .9
+enemyscore 25
+numberenemies 5
+spawninterval .9
+waveperiod 12
+round waves 1
+wave
+enemytype skeleton
+enemyhp 200
+enemyarmor 20.5
+enemyspeed 1.6
+enemybounty 25.1
+enemyscale 1.4
+enemyscore 0
+numberenemies 12
+spawninterval 0.95
+waveperiod 20
+
+
+    
