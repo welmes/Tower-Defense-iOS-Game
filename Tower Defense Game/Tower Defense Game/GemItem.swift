@@ -168,7 +168,6 @@ func RedAttackLaunch(tower: TowerUnit) {
         let enemiesInRange = game!.rounds.first!.GetEnemiesInRange(tower)
         for enemy in enemiesInRange {
             enemy.TakeDamage(tower.gem!.GetDamage(), armorBypass: 0)
-            enemy.ProjectDamage(tower.gem!.GetDamage(), armorBypass: 0)
             
             let impactSprite = SKSpriteNode(texture: GemColor.vals[tower.gem!.color!.rawValue].impactFramesTextures[0])
             enemy.impactSprites.append(impactSprite)
